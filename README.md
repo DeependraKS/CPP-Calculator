@@ -19,6 +19,7 @@ The program flow is:
 #### Calculator Class
 
 This is the base class for the calculator program. It has data members and member functions that will display messages to the screen, prompt for user input, and perform calculations.
+
 Specifically, Calculator has 2 protected data members, `result` and `mem`. `result` stores the result of the last computation. `mem` is used by the user to store a number in memory and access it later for further computation. They are both doubles, and they are initialized to 0 in the constructor.
 Public member functions `add`, `subtract`, `multiply`, `divide`, `square`, and `sqrt` perform all the calculations. They prompt the user for either 1 or 2 numbers depending on the function, perform the required calculation, store this in the protected variable result, and print out the result to the screen.
 Calculator has 2 public member functions in order to use `mem`, a get and a set.
